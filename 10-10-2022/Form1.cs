@@ -36,7 +36,7 @@ namespace _10_10_2022
         private void button3_Click(object sender, EventArgs e)
         {
 
-            int a = v + 1;
+           v ++;
             
             
                 
@@ -44,19 +44,19 @@ namespace _10_10_2022
 
         private void button4_Click(object sender, EventArgs e)
         {
-            int a = v-1 ;
+            v-- ;
             
            
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            int a = c+1;
+            c++;
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            int a = c - 1;
+             c --;
         }
     }
 }
